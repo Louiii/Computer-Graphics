@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  body {
+    text-align : center;
+    padding: 30px;
+  }
+  canvas {
+  display : block;
+  width : 900px;
+  height : 650px;
+  margin : auto;
+  padding : 10;
+  border : none;
+  background-color : #ddfdff;/* all this css can be removed- I used it to style the background blue */
+}
+</style>
+  <head>
+    <meta charset="utf-8" />
+    <title>Point lighted cube (Per fragment)</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="900" height="650">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>Arrow keys to move, 'a'/'d' to look left/right, 'w'/'s' to move up/down.</p>
+    <p>'m'/'n' to open/close the door.</p>
+    <p>'z'/'x' to move chair 1 back/forward, 'v'/'c' to move table 1 forward/back.</p>
+    <p>'f'/'g' to move chair 2 back/forward, 'j'/'h' to move table 2 forward/back.</p>
+    <p>'1', '2', '3', '4', '0' to toggle point light source 1, 2, directional light, background colour, and the ambient light.</p>
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="Classroom.js"></script>
+  </body>
+</html>
