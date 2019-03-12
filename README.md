@@ -2,6 +2,8 @@
 
 A 3D rendering of a classroom which I made as the assignment for a submodule in computer graphics.
 
+View it here! https://louiiiclassroom.000webhostapp.com/Classroom/Classroom.html
+
 If you have any errors running the program these answers may help. 
 https://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome
 
